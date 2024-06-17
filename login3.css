@@ -1,0 +1,78 @@
+* {
+    font-family: Poppins;
+}
+body {
+    background-image: url(bgclg.png);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* .success-text{
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+} */
+.main {
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 12px 12px 5px rgba(0, 0, 0, 0.5);
+    width: 86%;
+    height: 575px;
+}
+.img_logo1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.div_logo{
+    flex: 1;
+}
+.div_text {
+    color: rgb(83, 83, 83);
+    flex: 0.8;
+}
+#log {
+    font-size: 45px;
+    margin: 50px 30px 70px 0px;
+    text-decoration: underline;
+}
+#naam {
+    font-size: 25px;
+}
+#name {
+    width: 200px;
+    height: 25px;
+    margin: 10px 20px 30px 40px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#idnaam {
+    font-size: 25px;
+}
+#uid {
+    width: 200px;
+    margin: 10px 20px 30px 88px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.btn {
+    width: max-content;
+    border: 2px solid rgb(1, 98, 53);
+    border-radius: 32px;
+    padding: 20px 50px;
+    color: rgb(1, 98, 53);
+    font-weight: bold;
+    background-color: white;
+    margin-bottom: 60px;
+}
